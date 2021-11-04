@@ -1,3 +1,5 @@
 describe('Hello, World!', () => {
-  expect(true).toBeTruthy();
+  it('should be truth', () => {
+    expect(true).toBeTruthy();
+  });
 });
